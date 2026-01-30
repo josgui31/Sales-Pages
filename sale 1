@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recomendación del día</title>
+  <meta name="description" content="Recomendación rápida con link a Amazon.">
+  <style>
+    body { font-family: Arial, sans-serif; margin:0; background:#f6f7fb; color:#111; }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 24px; }
+    .card { background:#fff; border-radius:16px; padding:24px; box-shadow: 0 8px 20px rgba(0,0,0,.06); }
+    h1 { font-size: 28px; margin: 0 0 10px; }
+    p { line-height: 1.5; }
+    .badge { display:inline-block; background:#111; color:#fff; padding:6px 10px; border-radius:999px; font-size:12px; margin-bottom:10px; }
+    .grid { display:grid; grid-template-columns: 1fr; gap: 14px; margin: 18px 0; }
+    .btn { display:inline-block; width:100%; text-align:center; padding:14px 16px; border-radius:12px; background:#111; color:#fff; font-weight:700; text-decoration:none; }
+    .btn:hover { opacity:.9; }
+    .muted { font-size: 12px; color:#555; }
+    .box { background:#f1f3f8; border-radius:12px; padding:14px; }
+    .faq h3 { margin: 0 0 6px; font-size: 16px; }
+    .divider { height:1px; background:#e9e9ee; margin: 18px 0; }
+    ul { margin: 0; padding-left: 18px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="badge">⭐ Recomendación rápida</div>
+      <h1>El producto que más ayuda a <span id="beneficio">[resolver X]</span> (sin complicarte)</h1>
+      <p>
+        Si buscas <strong>[resultado]</strong> con buena relación calidad-precio, esta es una opción muy sólida.
+        Te dejo lo esencial y el acceso directo a Amazon.
+      </p>
+
+      <div class="grid">
+        <div class="box">
+          <strong>✅ Lo que te aporta:</strong>
+          <ul>
+            <li><strong>[Beneficio 1]</strong> (por ejemplo: más rápido / más cómodo)</li>
+            <li><strong>[Beneficio 2]</strong> (por ejemplo: duradero / fácil de usar)</li>
+            <li><strong>[Beneficio 3]</strong> (por ejemplo: ahorro / mejor desempeño)</li>
+            <li><strong>[Beneficio 4]</strong> (opcional)</li>
+          </ul>
+        </div>
+
+        <div class="box">
+          <strong>👥 Prueba social:</strong>
+          <p style="margin:8px 0 0">
+            “Muy buena compra, llegó rápido y funciona excelente.”<br/>
+            “Lo volvería a comprar. Excelente calidad.”<br/>
+            <span class="muted">*Ejemplos de comentarios. Revisa reseñas reales en Amazon.*</span>
+          </p>
+        </div>
+
+        <a class="btn" id="cta" href="TU_LINK_AFILIADO_AMAZON" target="_blank" rel="noopener">
+          👉 Ver precio y disponibilidad en Amazon
+        </a>
+
+        <p class="muted" style="margin:0">
+          Consejo: abre Amazon, revisa reseñas y confirma que sea compatible con tu necesidad.
+        </p>
+
+        <div class="divider"></div>
+
+        <div class="faq">
+          <h3>¿Esto sirve para mí?</h3>
+          <p class="muted">Si necesitas <strong>[caso de uso]</strong>, normalmente sí. Revisa especificaciones en Amazon.</p>
+
+          <h3>¿Cuánto tarda el envío?</h3>
+          <p class="muted">Depende de tu ubicación y stock. Amazon muestra tiempos exactos en la ficha del producto.</p>
+
+          <h3>¿Tiene garantía?</h3>
+          <p class="muted">La información de devolución/garantía aparece en Amazon para ese producto.</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <p class="muted">
+          <strong>Divulgación:</strong> Como Afiliado de Amazon, obtengo ingresos por las compras adscritas que cumplen los requisitos aplicables.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
